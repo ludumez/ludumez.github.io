@@ -4,6 +4,11 @@
 Lukas Dumez
 </title>
 <style>
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -19,106 +24,196 @@ Lukas Dumez
   clear: both;
   display: table;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+img{
+border-radius:10%;
+}
+
+p{
+font-family:'Courier New'
+}
 </style>
 
 <body>
 
-<h1>Portofolio</h1>
-<h2>Lukas Dumez</h2>
-<h3>A systems programmer and generalist focused good experiences in close colaboration with game designers and artists.</h3>
-<p>Knowledge: C#, Unity 3D, UI, UX, Blender 3D, Photon, Mirror, Shaders</p>
-Email: <a href="mailto:ludumez@hotmail.com">ludumez@hotmail.com</a> | Itch.io: <a href="https://lukielue.itch.io">lukielue.itch.io</a> | <a href="pagina.html">Education</a>
+<h1 style="font-family:'Courier New'"><center> Lukas Dumez</center></h1>
+<h1> </h1>
+<h2 style="font-family:'Courier New'"><center> Programmer, System Designer</center></h2>
+<h2 style="font-family:'Courier New'"><center> Contact: <u><a href="mailto:ludumez@hotmail.com">ludumez@hotmail.com</a></u></center></h2>
 
-<hr>
-<p>Projects</p>
 
-<hr>
-Rpg systems colection:
-<ul>
-	<li>My role: Designer and programmer</li>
-	<li>Contribution: Research, design and implementation</li>
-	<li>Design emphasising game feel</li>
-	<li>Tech: C#. Scriptable objects. UI/UX implementation. UI work on different resolutions.</li>
-</ul>
-<div class="row">	
-	<div class="column">
-		<div class="text">
-		Crafting system with modular recipes and item creation
-		</div>	
-		<img src="/Crafting system.gif"  width="500"/>
+<hr style="width:90%;height:1px;border-width:0;color:gray;background-color:gray"; margin: auto;">
+
+
+<div class="container">
+	<div style="width:50%">
+	<iframe src="https://itch.io/embed/1334500" height="167" width="552" frameborder="0" style="padding-right:10px"><a href="https://lukielue.itch.io/inventory-	system">Inventory system by Lukas Dumez</a></iframe>
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+	<b>Inventory system</b>
+	</p>
+		
+		<p style="text-align:left;padding-left:50px;padding-right:20px">
+		<li style="text-align:left;padding-left:70px">My role: Designer and programmer</li>
+		<li style="text-align:left;padding-left:70px">Contribution: Research, design and implementation</li>
+		<li style="text-align:left;padding-left:70px">Design emphasising game feel and modularity</li>
+		<li style="text-align:left;padding-left:70px">Tech: C#. Scriptable objects. UI/UX implementation. UI work on different resolutions. Animation</li>
+		<li style="text-align:left;padding-left:70px">Date: Early 2022</li>
+		</p>
+		
 	</div>
-	<div class="column">
-		<div class="text">
-		Modular inventory system with moveable objects.
-		</div>	
-		<img src="inventory.gif"  width="500"/>
+	<iframe src="https://i.simmer.io/@lukielue/inventory-system" style="width:580px;height:360px; border-radius:5%;"></iframe>
+</div>
+
+<hr style="width:90%;height:1px;border-width:0;color:gray;background-color:gray"; margin: auto;">
+
+
+
+<p></p>
+<div class="container">	
+	<div style="width:50%">
+	<iframe src="https://itch.io/embed/1234810" height="167" width="552" frameborder="0"><a href="https://lukielue.itch.io/inventory-system-pacakge">Crafting 	system for unity by Lukas Dumez</a></iframe>
+	</div>
+	<div style="width:45%;text-align:left">
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+	<b>Crafting system</b>
+	</p>
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+		<li style="text-align:left;padding-left:70px">My role: Designer and programmer</li>
+		<li style="text-align:left;padding-left:70px">Contribution: Research, design and implementation</li>
+		<li style="text-align:left;padding-left:70px">A 3D crafting system designed with enphasis in modularity. </li>
+		<li style="text-align:left;padding-left:70px">Tech: C#. Scriptable objects. UI/UX implementation.</li>
+		<li style="text-align:left;padding-left:70px">Date: Autum 2021 </li>
+		</p>
+	</div>
+</div>
+<hr style="width:90%;height:1px;border-width:0;color:gray;background-color:gray"; margin: auto;">
+
+<p></p>
+<div class="container">	
+	<div style="width:45%;text-align:left">
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+	<b>Ping pong mobile game</b>
+	</p>
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+		<li style="text-align:left;padding-left:70px">My role: Programmer and artist.</li>
+		<li style="text-align:left;padding-left:70px">Contribution: implementation and creation of a mobile game acording to client specification </li>
+		<li style="text-align:left;padding-left:70px">A remake of ping pong on Android. </li>
+		<li style="text-align:left;padding-left:70px">Tech: C#. UI/UX implementation. Android.</li>
+		<li style="text-align:left;padding-left:70px">Date: Late 2021</li>
+		</p>
+	</div>
+	<div style="width:50%">
+	<img src="ping pong gif.gif"  width="500px"/>
 	</div>
 </div>
 
-<hr>
-Freelance work
-<ul>
-	<li>My role: Designer and programmer. Completing projects acording to client specifications.</li>
-	<li>Contribution: Research, design acording to client specifications.</li>
-</ul>
-<div class="row">	
-	<div class="column">
-		<div class="text">
-		Ping pong game released on android acording to client specifications. Implementation of movement, points and menu.
-		</div>	
-		<img src="ping pong gif.gif"  width="500"/>
+<hr style="width:90%;height:1px;border-width:0;color:gray;background-color:gray"; margin: auto;">
+<p></p>
+
+<div class="container">
+
+	<div style="width:50%">
+	<img src="procedual.gif"  width="500px"/>
 	</div>
-	<div class="column">
-		<div class="text">
-		2D horror sidescroller. Implementation of inventory system, puzzles and AI.
-		</div>	
-		<img src="sidecroller gif.gif"  width="500"/>
+	<div style="width:45%;text-align:left">
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+	<b>Procedual city generator</b>
+	</p>
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+		<li style="text-align:left;padding-left:70px">My role: Programmer</li>
+		<li style="text-align:left;padding-left:70px">Contribution: Implementation of procedual city generation</li>
+		<li style="text-align:left;padding-left:70px">A 3D procedual city generation. </li>
+		<li style="text-align:left;padding-left:70px">Tech: C#. Proceduality </li>
+		<li style="text-align:left;padding-left:70px">Date: Early 2021 </li>
+		</p>
 	</div>
 </div>
-<hr>
 
-Others
-<ul>
-	<li>Other little projects.</li>
-	<li>Contribution: Research and design.</li>
-</ul>
-<div class="row">	
-	<div class="column">
-		<div class="text">
-		Golf game controlls remade in Unreal Engine
-		</div>	
-		<img src="unreal golf game.gif"  width="500"/>
-	</div>
-	<div class="column">
-		<div class="text">
-		Random map generator. Each row being personalizeable with different nodes. 
-		</div>	
-		<img src="mapsim.gif"  width="500"/>
-	</div>
+<hr style="width:90%;height:1px;border-width:0;color:gray;background-color:gray"; margin: auto;">
 
-	<div class="column">
-		<div class="text">
-		Online classic table game using Photon. 
-		</div>	
-		<img src="online.gif"  width="500"/>
+<p></p>
+<div class="container">	
+	<div style="width:45%;text-align:left">
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+	<b>Scopa</b>
+	</p>
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+		<li style="text-align:left;padding-left:70px">My role: Designer and programmer.</li>
+		<li style="text-align:left;padding-left:70px">Contribution: Research, design and implementation</li>
+		<li style="text-align:left;padding-left:70px">A remake of the clasical italian card game. </li>
+		<li style="text-align:left;padding-left:70px">Tech: C#. UI/UX implementation. Turn based system design</li>
+		<li style="text-align:left;padding-left:70px">Date: Mid 2021</li>
+		</p>
 	</div>
-
-	<div class="column">
-		<div class="text">
-		Procedual city generation and movement
-		</div>	
-		<img src="procedual.gif"  width="500"/>
-	</div>
-
-	<div class="column">
-		<div class="text">
-		First person movement and camera controlls.
-		</div>	
-		<img src="walking game.gif"  width="500"/>
+	<div style="width:50%">
+	<iframe src="https://itch.io/embed/1245518" height="167" width="552" frameborder="0"><a href="https://lukielue.itch.io/scopa">Scopa by Lukas Dumez</a></iframe>
 	</div>
 </div>
 
 
+<hr style="width:90%;height:1px;border-width:0;color:gray;background-color:gray"; margin: auto;">
+<p></p>
+
+<div class="container">
+
+	<div style="width:50%">
+	<iframe src="https://itch.io/embed/934863" height="167" width="552" frameborder="0"><a href="https://lukielue.itch.io/fishy-paradise">Fishy paradise by Lukas 		Dumez</a></iframe>	
+	</div>
+	<div style="width:45%;text-align:left">
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+	<b>Fishing game</b>
+	</p>
+	<p style="text-align:left;padding-left:50px;padding-right:20px">
+		<li style="text-align:left;padding-left:70px">My role: Designer and programmer</li>
+		<li style="text-align:left;padding-left:70px">Contribution: Research, design and implementation</li>
+		<li style="text-align:left;padding-left:70px">A 3D game about fishing with a low res style. </li>
+		<li style="text-align:left;padding-left:70px">Tech: C#. Scriptable objects. UI/UX implementation. Shaders</li>
+		<li style="text-align:left;padding-left:70px">Date: Autum 2021 </li>
+		</p>
+	</div>
+</div>
+
+<hr style="width:90%;height:1px;border-width:0;color:gray;background-color:gray"; margin: auto;">
+<div class="container" style="width:60%; margin:auto;padding-top:20px;padding-down:20px">
+	<div class="center">
+	<img src="pic.jpeg"  width="200"/>
+	</div>
+	<div class="center">
+<p style ="text-align:left;padding-left:20px"><b>About</b>
+<p style ="text-align:left;padding-left:20px">
+Hello! I'm Lukas, I'm a belgian programmer currently living in Spain. 
+I have been developing games for 7 years as a hobbyist and proffesionally 2 years.
+I have a background in science and game developement.	
+</p>
+<p style ="text-align:left;padding-left:20px">
+Core skills: Systems and gameplay programming. Videogame design. UX/UI implementation.
+</p>
+<p style ="text-align:left;padding-left:20px">
+Interests: Role playing games, nature, fishing minigames. 
+</p>
+</div>
+</div>
+
+
+<hr style="width:90%;height:1px;border-width:0;color:gray;background-color:gray"; margin: auto;">
+<div class="container">
+	<div style="text-align:center">
+	<p style="text-align:center;padding-right:20px">
+	<h3><b>Education</b></h3>
+		<div>	
+		<img src="escuela videojuegos.png"  width="400"/>
+		<img src="escuela unity.png"  width="400"/>
+		</div>
+	</p>
+	</div>
+
+</div>
 
 </body>
 </html>
