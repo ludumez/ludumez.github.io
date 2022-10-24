@@ -16,6 +16,7 @@
 
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -89,7 +90,8 @@
   <section class="py-3 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Lukas Dumez</h1>
+        <h1 style="text-align: center; font-size:50px"><b> Lukas Dumez </b></h1>
+
         <p class="lead text-muted">I'm a <b>Unity Developer</b> with a Bachellors in <b>Environmental Sciene</b> based in <b>Spain</b>. </p>
         <p>
           <a href="mailto:ludumez@hotmail.com" class="btn btn-primary my-2">Contact</a>
@@ -112,17 +114,65 @@
       </video> 
 	  <hr class="featurette-divider">
 
-</div>    
+
+  
 
   
   
-  <!-- carousel -->
- 
   
+  
+  
+  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner" style="background-color:#383636">
+  
+  	
+	<div class="carousel-item active d-flex align-items-center justify-content-center ">	
+		 <img class="d-block w-80" src="RFTA.png" alt="First slide">		
+		<div class="carousel-caption">
+          <a href="https://www.episod.studio/games/race-for-the-arctic" class="btn btn-secondary my-2" target="_blank" rel="noopener noreferrer">More info</a>
+		</div>		
+	</div>
+
+  
+    <div class="carousel-item d-flex align-items-center justify-content-center ">
+		<video  class="img-fluid" autoplay loop muted>
+		      <source class="d-block w-80" src="inventoryShowreel.mp4" type="video/mp4" alt="Second slide">
+		</video>  
+		<div class="carousel-caption">
+			<h5>Inventory system</h5>
+			<a href="https://lukielue.itch.io/inventory-system" class="btn btn-secondary my-2" target="_blank"rel="noopener noreferrer">Play DEMO</a>
+		</div>		
+	</div>
+	
+	<div class="carousel-item d-flex align-items-center justify-content-center ">
+		<video  class="img-fluid" autoplay loop muted>
+		    <source class="d-block w-80" src="crafting.mp4" type="video/mp4" alt="Third slide">
+		</video>  
+		<div class="carousel-caption">
+			<h5>Crafting system</h5>
+			<a href="https://lukielue.itch.io/inventory-system-pacakge" class="btn btn-secondary my-2" target="_blank"rel="noopener noreferrer">Play DEMO</a>
+		</div>		
+	</div>
+
+	
+  </div>
+	
+	<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+  
+  	
 
   <div class="container marketing">
+    <hr class="featurette-divider">
 
-<h1 style="text-align: center; font-size:50px"><b> Resume </b></h1>
+<h1 style="text-align: center; font-size:50px"><b> About me </b></h1>
     <!-- START THE FEATURETTES -->
     <hr class="featurette-divider">
 
@@ -153,7 +203,7 @@
 
         <div class="py-5 text-center container">
       <div>
-        <h2>Freelance. <span class="text-muted">June 2021-May 2022.</span></h2>
+        <h2>Freelance developer. <span class="text-muted">June 2021-May 2022.</span></h2>
         <p class="lead">Unity Freelance.</p> 
 		<p class="lead">Freelance developer with a total of over <b>25 different clients</b>. In charge of developing systems and mechanics in a 
 		fast passed environment by working closely with my clients and translating their ideas into a design document</p>
@@ -166,11 +216,12 @@
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
-
+  
+ </div>
 </main>
 
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
       
   </body>
